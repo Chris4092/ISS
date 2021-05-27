@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD//EN"
+        "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+<class name="domain.Reservation"
+       table="Reservations">
+    <id name="id" type="long" column="idReservation">
+            <generator class="increment"/>
+    </id>
+    <property
+            name="idClient" type="long" column="idClient"
+    />
+    <property
+            name="idShow" type="long" column="idShow"
+    />
+    <property
+            name="numberOfTickets" type="int" column="numberOfTickets"
+    />
+    <property
+            name="discount" type="int" column="discount"
+    />
+    <property
+            name="price" type="int" column="price"
+    />
+        </class>
+</hibernate-mapping>

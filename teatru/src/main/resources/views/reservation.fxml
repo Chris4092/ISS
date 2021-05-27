@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.ReservationController">
+   <children>
+      <Label fx:id="numeLabel" layoutX="54.0" layoutY="38.0" prefHeight="17.0" prefWidth="483.0" text="Nume:" />
+      <Label fx:id="prenumeLabel" layoutX="54.0" layoutY="76.0" prefHeight="17.0" prefWidth="483.0" text="Prenume:" />
+      <Label fx:id="nrBileteLabel" layoutX="54.0" layoutY="147.0" prefHeight="17.0" prefWidth="483.0" text="Numar bilete:" />
+      <Label fx:id="spectacolLabel" layoutX="54.0" layoutY="112.0" prefHeight="17.0" prefWidth="483.0" text="Spectacol:" />
+      <Label fx:id="SumaPlatitaLabel" layoutX="54.0" layoutY="183.0" prefHeight="17.0" prefWidth="483.0" text="Suma achitata:" />
+      <Label fx:id="discountLabel" layoutX="54.0" layoutY="214.0" prefHeight="17.0" prefWidth="483.0" text="Discount:" />
+      <Button fx:id="deleteButton" layoutX="205.0" layoutY="295.0" mnemonicParsing="false" onMouseClicked="#delete" prefHeight="25.0" prefWidth="190.0" text="Renuntati la achizitie" />
+   </children>
+</AnchorPane>

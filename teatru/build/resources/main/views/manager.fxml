@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.ManagerController">
+   <children>
+      <Label layoutX="92.0" layoutY="49.0" text="titlu" />
+      <Label layoutX="92.0" layoutY="90.0" text="descriere" />
+      <Label layoutX="92.0" layoutY="131.0" text="data" />
+      <Label layoutX="92.0" layoutY="172.0" text="ora" />
+      <Label layoutX="92.0" layoutY="209.0" text="pret bilet" />
+      <TextField fx:id="titleTextField" layoutX="242.0" layoutY="45.0" />
+      <TextField fx:id="descriptionTextField" layoutX="242.0" layoutY="86.0" />
+      <TextField fx:id="dateTextField" layoutX="242.0" layoutY="127.0" />
+      <TextField fx:id="timeTextField" layoutX="242.0" layoutY="168.0" />
+      <TextField fx:id="priceTextField" layoutX="242.0" layoutY="205.0" />
+      <Button fx:id="addButton" layoutX="94.0" layoutY="307.0" mnemonicParsing="false" onMouseClicked="#addShow" text="add" />
+      <Button fx:id="deleteButton" layoutX="291.0" layoutY="307.0" mnemonicParsing="false" onMouseClicked="#deleteShow" text="delete" />
+   </children>
+</AnchorPane>
